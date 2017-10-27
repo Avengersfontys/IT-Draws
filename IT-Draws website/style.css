@@ -4,4 +4,61 @@ body{
     background-position: center;
     background-size: 100% 100%; 
     background-attachment: fixed;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-weight: lighter;
+    margin-right: 280px;
+}
+
+sub{
+    font-family: 'Quattrocento', sans-serif;
+    font-size: 20px;
+    margin: 50px 750px 50px 135px;
+}
+
+p{
+    font-family: 'Quattrocento', sans-serif;
+    margin: 20px 750px 50px 135px;
+    font-weight: lighter;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 2px hidden rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    
+    
+}
+
+li{
+    font-family: 'Quattrocento', sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.nav{
+    background-color: #DF0606;
+    color: #000000;
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin-bottom: 50px;
+    margin-right: 135px;
+    margin-left: 135px;
+    border-radius: 10px;
+}
+
+.nav > li {
+    display: inline-block;
+    padding-right: 65px;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav > li > a:hover {
+    color: #5FC273;
 }
